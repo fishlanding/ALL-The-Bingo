@@ -1,0 +1,9 @@
+{
+    "type": "stats",
+    "display": {
+        "name": "击杀1只肿胀眼魔",
+        "item": "minecells:boss_stem_cell"
+    },
+    "statType": "minecraft:killed",
+    "statName": "minecells:conjunctivius"
+}

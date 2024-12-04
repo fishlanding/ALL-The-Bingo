@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "已安装 Mine Cells",
+        "description": "",
+        "icon": {
+            "item": "minecells:monster_cell"
+        },
+        "announce_to_chat": true,
+        "show_toast": false
+    },
+    "criteria": {
+        "mine_cell_root": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "nbt": "{Inventory:[{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"minecells:minecells_guidebook\"}}]}"
+                }
+            }
+        }
+    },
+    "parent": "atb:setup"
+}
