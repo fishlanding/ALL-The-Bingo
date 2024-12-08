@@ -1,0 +1,9 @@
+{
+    "type": "item",
+    "item": "minecells:metal_shards",
+    "count": {
+        "type": "random",
+        "min": 12,
+        "max": 24
+    }
+}

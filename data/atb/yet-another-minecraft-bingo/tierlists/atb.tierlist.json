@@ -1,7 +1,9 @@
 {
     "S": [
-        "atb:stats_killed_conjunctivius",
-        "atb:all_respawn_runes",
+        "atb:challenge/stats_killed_conjunctivius",
+        "atb:challenge/all_respawn_runes",
+        "atb:mine_cell/too_many_cells",
+        "atb:mine_cell/dududadudadu",
         "minecells:concierge",
         "minecells:black_briage",
         "minecells:conjunctivius",
@@ -16,8 +18,9 @@
         "minecells:ice_bow"
     ],
     "A": [
-        "atb:all_alchemy_equipments",
-        "atb:many_cell_infused_steels",
+        "atb:challenge/all_flags",
+        "atb:challenge/all_alchemy_equipments",
+        "atb:challenge/many_cell_infused_steels",
         "minecells:ramparts",
         "minecells:respawn_boss",
         "minecells:boss_stem_cell",
@@ -29,7 +32,9 @@
         "minecells:concierge_respawn_rune"
     ],
     "B": [
-        "atb:many_monsters_cells",
+        "atb:challenge/many_monster_cells",
+        "atb:challenge/many_explosive_bulbs",
+        "atb:challenge/many_buzzcutter_fang",
         "minecells:insufferable_crypt",
         "minecells:monsters_eye",
         "minecells:molten_chunk",
@@ -47,6 +52,14 @@
         "minecells:cell_hloder"
     ],
     "C": [
+        "atb:challenge/many_guts",
+        "atb:challenge/many_monsters_eyes",
+        "atb:challenge/many_infected_flesh",
+        "atb:challenge/metal_shards",
+        "atb:challenge/stats_killed_leaping_zombies",
+        "atb:challenge/stats_killed_undead_archer",
+        "atb:challenge/stats_mutated_bat",
+        "atb:challenge/opponent_vine_rune",
         "minecells:vine_rune",
         "minecells:promenade",
         "minecells:elevator",
@@ -132,5 +145,25 @@
         "minecells:promenade_torch",
         "minecells:ramparts_torch"
     ],
-    "groups": []
+    "groups": [
+        [
+            "minecells:cudgel",
+            "minecells:rampart",
+            "minecells:assault_shield",
+            "minecells:bloodthirsty_shield",
+            "minecells:greed_shield",
+            "minecells:ice_shield"
+        ],
+        [
+            "minecells:multiple_nocks_bow",
+            "minecells:bow_and_endless_quiver",
+            "minecells:marksmans_bow",
+            "minecells:infantry_bow",
+            "minecells:quick_bow",
+            "minecells:ice_bow",
+            "minecells:nerves_of_steel",
+            "minecells:heavy_crossbow",
+            "minecells:explosive_crossbow"
+        ]
+    ]
 }

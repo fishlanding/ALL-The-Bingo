@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "嘟嘟哒嘟哒嘟",
+        "description": "获得1个bro的骨架",
+        "icon": {
+            "item": "minecells:skeleton"
+        },
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "criteria": {
+        "dududa": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecells:skeleton"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "atb:mine_cell/root"
+}

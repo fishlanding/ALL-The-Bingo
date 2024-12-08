@@ -10,11 +10,16 @@
     },
     "criteria": {
         "mine_cell_root": {
-            "trigger": "minecraft:tick",
+            "trigger": "inventory_changed",
             "conditions": {
-                "player": {
-                    "nbt": "{Inventory:[{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"minecells:minecells_guidebook\"}}]}"
-                }
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:bedrock"
+                        ],
+                        "nbt": "{display:{Name:'{\"text\": \"安装 Mine Cells\",\"color\": \"gold\",\"italic\": false}'}}"
+                    }
+                ]
             }
         }
     },

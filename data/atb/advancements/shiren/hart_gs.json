@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": "万泉部诗人",
+        "description": "GS啊？诗人卧持",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:\"Hart_GS\"}"
+        },
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "criteria": {
+        "hart_gs": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "leather_leggings"
+                        ],
+                        "nbt": "{display:{Name:'{\"text\": \"Hart_GS的性感小短裤\",\"color\": \"red\",\"italic\": false}',Lore:['{\"text\": \"小搞珍藏\",\"color\": \"gray\"}']},CustomModelData:1000,Unbreakable: true,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "atb:setup"
+}

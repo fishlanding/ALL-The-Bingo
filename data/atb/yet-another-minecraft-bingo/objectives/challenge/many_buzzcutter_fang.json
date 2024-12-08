@@ -1,0 +1,9 @@
+{
+    "type": "item",
+    "item": "minecells:buzzcutter_fang",
+    "count": {
+        "type": "random",
+        "min": 16,
+        "max": 24
+    }
+}

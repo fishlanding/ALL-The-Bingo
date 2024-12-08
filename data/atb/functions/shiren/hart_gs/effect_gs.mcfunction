@@ -1,0 +1,1 @@
+execute as @a[nbt={Inventory:[{Slot:101b,id:"minecraft:leather_leggings",tag:{display:{Name:'{"text": "Hart_GS的性感小短裤","color": "red","italic": false}',Lore:['{"text": "小搞珍藏","color": "gray"}']}}}]}] run effect give @s weakness 20 1
