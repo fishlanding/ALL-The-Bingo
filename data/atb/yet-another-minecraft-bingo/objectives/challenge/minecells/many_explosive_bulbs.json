@@ -1,0 +1,9 @@
+{
+    "type": "item",
+    "item": "minecells:explosive_bulb",
+    "count": {
+        "type": "random",
+        "min": 8,
+        "max": 24
+    }
+}

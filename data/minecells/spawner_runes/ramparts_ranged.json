@@ -1,0 +1,37 @@
+{
+    "cooldown": 60.0,
+    "spawnDistance": 4.0,
+    "playerDistance": 32.0,
+    "pools": [
+        {
+            "rolls": {
+                "type": "uniform",
+                "value": {
+                    "min_inclusive": 2,
+                    "max_inclusive": 3
+                }
+            },
+            "entries": [
+                {
+                    "weight": 2,
+                    "entity": "minecells:inquisitor",
+                    "attributes": {
+                        "generic.max_absorption": 5,
+                        "generic.armor": 4,
+                        "generic.follow_range": 28,
+                        "generic.movement_speed": 0.18
+                      }
+                },
+                {
+                    "weight": 2,
+                    "entity": "minecells:undead_archer",
+                    "nbt":{"HandItems":[{"id":"minecraft:bow","Count":1,"tag":{"Enchantments":[{"id":"minecraft:power","lvl":1}]}},{}]}
+                },
+                {
+                    "weight": 4,
+                    "entity": "minecells:buzzcutter"
+                }
+            ]
+        }
+    ]
+}

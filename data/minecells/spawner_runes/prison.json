@@ -1,0 +1,58 @@
+{
+    "cooldown": 60.0,
+    "spawnDistance": 3.0,
+    "playerDistance": 14.0,
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "weight": 5,
+                    "entity": "minecells:leaping_zombie",
+                    "attributes": {
+                        "generic.max_health": 25,
+                        "generic.armor": 6
+                    }
+                },
+                {
+                    "weight": 2,
+                    "entity": "minecells:shieldbearer",
+                    "attributes": {
+                        "generic.max_health": 25,
+                        "generic.armor": 8
+                    }
+                },
+                {
+                    "weight": 3,
+                    "entity": "minecells:undead_archer",
+                    "nbt": {
+                        "HandItems": [
+                            {
+                                "id": "minecraft:bow",
+                                "Count": 1,
+                                "tag": {
+                                    "Enchantments": [
+                                        {
+                                            "id": "minecraft:power",
+                                            "lvl": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "weight": 2,
+                    "entity": "minecells:grenadier",
+                    "attributes": {
+                        "generic.max_health": 25,
+                        "generic.armor": 5,
+                        "generic.movement_speed": 0.21
+                    }
+                }
+            ]
+        }
+    ]
+}

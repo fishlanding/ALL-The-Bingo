@@ -1,0 +1,32 @@
+{
+    "cooldown": 60.0,
+    "spawnDistance": 0.0,
+    "playerDistance": 24.0,
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "weight": 1,
+                    "entity": "minecells:shieldbearer",
+                    "attributes": {
+                        "generic.max_health": 27,
+                        "generic.armor": 8,
+                        "generic.attack_damage": 7,
+                        "generic.knockback_resistance": 0.9
+                    }
+                },
+                {
+                    "weight": 1,
+                    "entity": "minecells:sweeper",
+                    "attributes": {
+                        "generic.max_health": 26,
+                        "generic.attack_damage": 8,
+                        "generic.attack_knockback": 1.25,
+                        "generic.knockback_resistance": 0.8
+                    }
+                }
+            ]
+        }
+    ]
+}
