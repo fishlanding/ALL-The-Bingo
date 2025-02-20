@@ -16,3 +16,7 @@ execute as @s[tag=tp,team=bingo_blue] run tellraw @a[team=bingo_blue] [{"selecto
 execute as @s[tag=tp,team=bingo_aqua] run tellraw @a[team=bingo_aqua] [{"selector": "@a[team=bingo_aqua,tag=tp]"},{"text": " 发出了tp请求，"},{"text": "输入"},{"text": "§l§o/trigger TPAccept§r","clickEvent": {"action": "run_command","value": "/trigger TPAccept"}},{"text": " 同意请求"}]
 
 scoreboard players set @s TP 0
+
+# 冷却
+tellraw @s {"text": "TP进入冷却，冷却时间：60s"}
+schedule function atb:team_tp/enable_tp 60s
