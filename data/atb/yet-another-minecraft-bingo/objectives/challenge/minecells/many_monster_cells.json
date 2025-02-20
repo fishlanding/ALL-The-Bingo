@@ -1,9 +1,0 @@
-{
-    "type": "item",
-    "item": "minecells:monster_cell",
-    "count": {
-        "type": "random",
-        "min": 24,
-        "max": 64
-    }
-}

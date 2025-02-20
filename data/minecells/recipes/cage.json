@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["T","#","T"],"key":{"#":{"item":"minecraft:iron_bars"},"T":{"item":"minecraft:iron_trapdoor"}},"result":{"item":"minecells:cage"}}
