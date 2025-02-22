@@ -1,6 +1,6 @@
 # 生成 运输矿车
 
-kill @e[type=cherry_chest_boat,tag=team_chest]
+kill @e[type=chest_minecart,tag=team_chest]
 
 # 黄
 summon chest_minecart 0 200 0 {CustomName:'{"text": "队伍箱子","color": "yellow"}',CustomNameVisible:true,NoGravity:true,Glowing:true,Invulnerable:true,Tags:["team_chest","team_yellow"]}
