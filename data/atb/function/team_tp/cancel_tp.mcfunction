@@ -25,4 +25,4 @@ scoreboard players set @s TPCancel 0
 
 # 冷却
 tellraw @s {"text": "TP进入冷却，冷却时间：30s"}
-schedule function atb:team_tp/enable_tp 30
+scoreboard players set @s TPcd 600
