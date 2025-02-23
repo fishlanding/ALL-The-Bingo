@@ -15,3 +15,6 @@ scoreboard players enable @a TeamChest
 function atb:team_chests/tp_teammate
 execute as @e[type=chest_minecart,tag=team_chest,scores={TPcd=0..}] run scoreboard players remove @s TPcd 1
 execute as @e[type=chest_minecart,tag=team_chest,scores={TPcd=0}] run function atb:team_chests/back
+
+# 比赛用
+function atb:competition/auto_join/referee

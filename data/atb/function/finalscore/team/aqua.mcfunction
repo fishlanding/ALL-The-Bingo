@@ -1,5 +1,7 @@
 # 计算每队的最终得分
 
+scoreboard players set #bingo_aqua FinalScore 0
+
 scoreboard players operation #bingo_aqua FinalScore += #bingo_aqua items
 scoreboard players operation #bingo_aqua FinalScore *= Bingo ItemScoreFactor
 scoreboard players operation #bingo_aqua LineFinalScore += #bingo_aqua lines

@@ -1,5 +1,7 @@
 # 计算每队的最终得分
 
+scoreboard players set #bingo_yellow FinalScore 0
+
 scoreboard players operation #bingo_yellow FinalScore += #bingo_yellow items
 scoreboard players operation #bingo_yellow FinalScore *= Bingo ItemScoreFactor
 scoreboard players operation #bingo_yellow LineFinalScore += #bingo_yellow lines

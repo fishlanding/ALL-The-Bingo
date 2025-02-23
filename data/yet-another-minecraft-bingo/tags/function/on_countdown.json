@@ -1,6 +1,5 @@
 {
     "values": [
-        "atb:team_chests/summon",
-        "atb:countdown/title"
+        "atb:team_chests/summon"
     ]
 }

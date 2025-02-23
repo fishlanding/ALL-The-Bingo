@@ -1,5 +1,7 @@
 # 计算每队的最终得分
 
+scoreboard players set #bingo_pink FinalScore 0
+
 scoreboard players operation #bingo_pink FinalScore += #bingo_pink items
 scoreboard players operation #bingo_pink FinalScore *= Bingo ItemScoreFactor
 scoreboard players operation #bingo_pink LineFinalScore += #bingo_pink lines
