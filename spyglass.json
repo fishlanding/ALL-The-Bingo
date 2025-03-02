@@ -1,5 +1,5 @@
 {
-    "env": {
-       "gameVersion": "Latest release"
-    }
- }
+   "env": {
+      "gameVersion": "1.20.1"
+   }
+}
