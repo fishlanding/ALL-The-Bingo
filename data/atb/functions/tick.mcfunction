@@ -17,4 +17,5 @@ execute as @e[type=chest_minecart,tag=team_chest,scores={TPcd=0..}] run scoreboa
 execute as @e[type=chest_minecart,tag=team_chest,scores={TPcd=0}] run function atb:team_chests/back
 
 # 比赛用
-function atb:competition/auto_join/referee
+execute if score Bingo Session matches 1 run function atb:competition/auto_join1
+execute if score Bingo Session matches 2 run function atb:competition/auto_join2

@@ -27,3 +27,6 @@ scoreboard objectives add FinalScore dummy {"text": "最终得分"}
 scoreboard players set Bingo ItemScoreFactor 10
 scoreboard players set Bingo LineExtraScore 30
 scoreboard players set Bingo DifficultyFactor 2
+# 分队
+scoreboard objectives add Session dummy
+scoreboard players set Bingo Session 1
