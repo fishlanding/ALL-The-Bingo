@@ -7,6 +7,10 @@ fill -2 199 -2 2 199 2 minecraft:barrier
 
 # 积分板
 
+# 游戏状态
+#   1 = 开
+#   0 = 关
+scoreboard objectives add GameStatus dummy
 # 菜单
 scoreboard objectives add BingoMenu trigger
 scoreboard objectives add BingoMenuOP trigger
@@ -27,6 +31,12 @@ scoreboard objectives add FinalScore dummy {"text": "最终得分"}
 scoreboard players set Bingo ItemScoreFactor 10
 scoreboard players set Bingo LineExtraScore 30
 scoreboard players set Bingo DifficultyFactor 2
+# 事件
+
+#  计时器
+scoreboard objectives add RandomEventTimer dummy
+scoreboard objectives add RandomEventDuration dummy
+
 # 分队
 scoreboard objectives add Session dummy
 scoreboard players set Bingo Session 1

@@ -5,13 +5,7 @@
         "twilightforest:moonworm_queen",
         "twilightforest:magic_beans",
         "twilightforest:lamp_of_cinders",
-        "twilightforest:charm_of_keeping_3",
-        "成就",
-        "twilightforest:lich_scepters",
-        "twilightforest:experiment_115_115",
-        "twilightforest:progress_merge",
-        "twilightforest:twilight_dinner",
-        "twilightforest:arborist"
+        "twilightforest:charm_of_keeping_3"
     ],
     "A": [
         "twilightforest:encased_fire_jet",
@@ -70,13 +64,7 @@
         "twilightforest:seeker_bow",
         "twilightforest:carminite_reactor",
         "twilightforest:charm_of_keeping_2",
-        "twilightforest:charm_of_life_2",
-        "成就",
-        "twilightforest:quest_ram",
-        "twilightforest:naga_armors",
-        "twilightforest:progress_naga",
-        "twilightforest:progress_lich",
-        "twilightforest:progress_labyrinth"
+        "twilightforest:charm_of_life_2"
     ],
     "B": [
         "twilightforest:uncrafting_table",
@@ -203,6 +191,7 @@
         "twilightforest:ice_sword",
         "twilightforest:glass_sword"
     ],
+    "D": [],
     "groups": [
         [
             "twilightforest:raw_meef",
