@@ -2,4 +2,4 @@
 function #minecraft:finalscore
 
 # 裁判看
-function atb:finalscore/team/referee
+schedule function atb:finalscore/team/referee 3t
