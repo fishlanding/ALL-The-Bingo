@@ -1,10 +1,6 @@
 # 加载成功
 tellraw @a {"text": "数据包加载成功！"}
 
-# 强加载
-forceload add 2 2 -2 -2
-fill -2 199 -2 2 199 2 minecraft:barrier
-
 # 积分板
 
 # 游戏状态
