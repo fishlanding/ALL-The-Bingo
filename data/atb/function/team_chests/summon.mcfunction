@@ -1,5 +1,9 @@
 # 生成 运输矿车
 
+forceload add 2 2 -2 -2
+fill -2 199 -2 2 199 2 minecraft:barrier
+setworldspawn 0 100 0
+
 # 黄
 execute at @r[team=bingo_yellow] run summon chest_minecart ~ ~ ~ {CustomName:'{"text": "队伍箱子","color": "yellow"}',CustomNameVisible:true,Invulnerable:true,Tags:["team_chest","team_yellow"]}
 execute as @e[type=chest_minecart,tag=team_yellow] run team join bingo_yellow
