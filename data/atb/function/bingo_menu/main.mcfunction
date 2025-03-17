@@ -24,4 +24,6 @@ tellraw @s [ \
   {"text": "8. 结束条件 "}, \
   {"text": "[修改]","color": "dark_purple","clickEvent": {"action": "run_command","value": "/function atb:bingo_menu/end_conditions"}},"\n", \
   {"text": "9. 僵局处理 "}, \
-  {"text": "[修改]","color": "dark_purple","clickEvent": {"action": "run_command","value": "/function atb:bingo_menu/stalemate"}}]
+  {"text": "[修改]","color": "dark_purple","clickEvent": {"action": "run_command","value": "/function atb:bingo_menu/stalemate"}},"\n", \
+  {"text": "10. 队伍积分 "}, \
+  {"text": "[修改]","color": "dark_purple","clickEvent": {"action": "run_command","value": "/function atb:bingo_menu/team_score"}}]

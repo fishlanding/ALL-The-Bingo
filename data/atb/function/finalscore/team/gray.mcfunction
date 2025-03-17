@@ -1,5 +1,5 @@
 # 计算每队的最终得分
-
+tag @a[team=bingo_gray] add referee
 scoreboard players set #bingo_gray FinalScore 0
 
 scoreboard players operation #bingo_gray FinalScore += #bingo_gray items

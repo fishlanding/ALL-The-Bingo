@@ -1,5 +1,6 @@
 {
     "values": [
-        "atb:team_chests/summon"
+        "atb:team_chests/summon",
+        "atb:competition/auto_join/leave"
     ]
 }
