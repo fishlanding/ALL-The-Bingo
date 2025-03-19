@@ -10,17 +10,7 @@
     },
     "criteria": {
         "setup": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:bedrock"
-                        ],
-                        "nbt": "{display:{Name:'{\"text\": \"安装\",\"color\": \"gold\",\"italic\": false}'}}"
-                    }
-                ]
-            }
+            "trigger": "impossible"
         }
     }
 }
