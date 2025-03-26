@@ -15,11 +15,12 @@ scoreboard objectives add TPcd dummy
 # 队伍箱子
 scoreboard objectives add TeamChest trigger
 # 队伍计分
+scoreboard objectives add BingoDifficulty dummy {"text": "Bingo难度"}
 scoreboard objectives add ItemScoreFactor dummy {"text": "物品得分"}
 scoreboard objectives add LineExtraScore dummy {"text": "连线额外得分"}
 scoreboard objectives add LineFinalScore dummy {"text": "连线最终得分"}
 scoreboard objectives add DifficultyFactor dummy {"text": "难度倍率"}
 scoreboard objectives add FinalScore dummy {"text": "最终得分"}
 scoreboard players set Bingo ItemScoreFactor 10
-scoreboard players set Bingo LineExtraScore 30
+scoreboard players set Bingo LineExtraScore 20
 scoreboard players set Bingo DifficultyFactor 2
