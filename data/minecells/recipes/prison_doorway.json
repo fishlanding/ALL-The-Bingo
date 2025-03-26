@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "crafting_shaped",
     "pattern": [
         "ABA",
         "BIB",
@@ -7,16 +7,16 @@
     ],
     "key": {
         "A": {
-            "item": "minecraft:stone_bricks"
+            "item": "stone_bricks"
         },
         "B": {
-            "item": "minecraft:cracked_stone_bricks"
+            "item": "cracked_stone_bricks"
         },
         "I": {
-            "item": "minecraft:iron_bars"
+            "item": "iron_bars"
         },
         "T": {
-            "item": "minecraft:torch"
+            "item": "torch"
         }
     },
     "result": {

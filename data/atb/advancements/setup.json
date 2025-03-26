@@ -3,7 +3,7 @@
         "title": "欢迎游玩 All The Bingo！！！",
         "description": "All The Bingo（简称 ATB）是由 一条鱼丸_ 制作的轻度魔改bingo整合包。",
         "icon": {
-            "item": "minecraft:book"
+            "item": "book"
         },
         "frame": "task",
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"

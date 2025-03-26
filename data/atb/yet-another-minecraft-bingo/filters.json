@@ -3,10 +3,10 @@
         {
             "id": "atb",
             "name": {
-                "translate": "ATB",
+                "translate": "",
                 "fallback": "ATB"
             },
-            "value": "+atb -tedious -unobtainable"
+            "value": "+type=atb from=minecraft#10 -tedious -uncategorized -unobtainable"
         },
         {
             "id": "items",
