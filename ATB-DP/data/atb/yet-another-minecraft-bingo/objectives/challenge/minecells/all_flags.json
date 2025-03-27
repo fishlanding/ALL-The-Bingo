@@ -1,0 +1,14 @@
+{
+    "type": "all_of",
+    "display": {
+        "name": {
+            "text": "旗帜收藏家",
+            "color": "gold"
+        },
+        "item": "minecells:kings_crest_flag"
+    },
+    "objectives": [
+        "minecells:kings_crest_flag",
+        "#atb:minecells_flag"
+    ]
+}

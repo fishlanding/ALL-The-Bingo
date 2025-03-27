@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": "太多辣⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄",
+        "description": "使用细胞储罐存储4组怪物细胞",
+        "icon": {
+            "item": "minecells:cell_holder"
+        },
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "criteria": {
+        "too_many_cells": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecells:cell_holder"
+                        ],
+                        "nbt": "{Cells:256}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "atb:mine_cell/root"
+}

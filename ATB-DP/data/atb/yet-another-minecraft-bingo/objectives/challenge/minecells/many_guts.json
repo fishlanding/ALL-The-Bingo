@@ -1,0 +1,9 @@
+{
+    "type": "item",
+    "item": "minecells:guts",
+    "count": {
+        "type": "random",
+        "min": 8,
+        "max": 32
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "all_of",
+    "display": {
+        "name": {
+            "text": "复活吧！我的Boss!",
+            "color": "blue"
+        },
+        "item": "minecells:conjunctivius_respawn_rune"
+    },
+    "objectives": [
+        "minecells:conjunctivius_respawn_rune",
+        "minecells:.concierge_respawn_rune"
+    ]
+}

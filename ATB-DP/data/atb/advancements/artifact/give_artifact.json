@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "give": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "atb:advancements/artifact"
+        ]
+    }
+}

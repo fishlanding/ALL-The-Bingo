@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 12,
+                "max": 24
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecells:monster_cell"
+                }
+            ]
+        },
+        {
+            "rolls": 20,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_ingot"
+                }
+            ]
+        }
+    ]
+}

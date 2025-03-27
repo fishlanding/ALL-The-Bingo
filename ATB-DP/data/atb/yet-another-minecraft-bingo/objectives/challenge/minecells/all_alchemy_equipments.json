@@ -1,0 +1,15 @@
+{
+    "type": "all_of",
+    "display": {
+        "name": {
+            "text": "炼金术士？",
+            "color": "purple"
+        },
+        "item": "minecells:alchemy_equipment"
+    },
+    "objectives": [
+        "minecells:alchemy_equipment_0",
+        "minecells:alchemy_equipment_1",
+        "minecells:alchemy_equipment_2"
+    ]
+}

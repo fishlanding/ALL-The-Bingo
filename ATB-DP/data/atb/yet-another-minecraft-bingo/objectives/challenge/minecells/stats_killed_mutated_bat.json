@@ -1,0 +1,10 @@
+{
+    "type": "stats",
+    "display": {
+        "name": {"text": "击杀10只变异蝙蝠","italic": false},
+        "item": "minecells:mutated_bat_spawn_egg"
+    },
+    "statType": "minecraft:killed",
+    "statName": "minecells:mutated_bat",
+    "min": 10
+}

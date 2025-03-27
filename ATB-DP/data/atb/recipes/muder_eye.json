@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " b ",
+        "bab",
+        " b "
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:ender_eye"
+        },
+        "b": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

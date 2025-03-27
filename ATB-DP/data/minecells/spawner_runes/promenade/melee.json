@@ -1,0 +1,36 @@
+{
+    "cooldown": 60.0,
+    "spawnDistance": 6.0,
+    "playerDistance": 24.0,
+    "pools": [
+        {
+            "rolls": {
+                "type": "uniform",
+                "value": {
+                    "min_inclusive": 2,
+                    "max_inclusive": 3
+                }
+            },
+            "entries": [
+                {
+                    "weight": 4,
+                    "entity": "minecells:leaping_zombie",
+                    "attributes": {
+                        "generic.max_health": 28,
+                        "generic.armor": 7,
+                        "attack_damage": 5
+                      }
+                },
+                {
+                    "weight": 1,
+                    "entity": "minecells:runner",
+                    "attributes": {
+                        "generic.max_health": 30,
+                        "generic.armor": 2,
+                        "attack_damage": 10
+                      }
+                }
+            ]
+        }
+    ]
+}

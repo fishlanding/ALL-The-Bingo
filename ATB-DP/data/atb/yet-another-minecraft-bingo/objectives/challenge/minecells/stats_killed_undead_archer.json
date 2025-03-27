@@ -1,0 +1,10 @@
+{
+    "type": "stats",
+    "display": {
+        "name": {"text": "击杀10只不死弓手","italic": false},
+        "item": "minecells:undead_archer_spawn_egg"
+    },
+    "statType": "minecraft:killed",
+    "statName": "minecells:undead_archer",
+    "min": 10
+}

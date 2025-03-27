@@ -1,0 +1,7 @@
+{
+    "type": "opponent",
+    "display":{
+        "name":{"text":"获得1个符文藤蔓","italic":false}
+    },
+    "item": "minecells:vine_rune"
+}

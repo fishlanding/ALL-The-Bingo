@@ -1,9 +1,0 @@
-{
-    "type": "item",
-    "item": "minecells:infected_flesh",
-    "count": {
-        "type": "random",
-        "min": 12,
-        "max": 24
-    }
-}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "已安装 Mine Cells",
+        "description": "",
+        "icon": {
+            "item": "minecells:monster_cell"
+        },
+        "announce_to_chat": true,
+        "show_toast": false
+    },
+    "criteria": {
+        "mine_cell_root": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:bedrock"
+                        ],
+                        "nbt": "{display:{Name:'{\"text\": \"安装 Mine Cells\",\"color\": \"gold\",\"italic\": false}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "atb:setup"
+}

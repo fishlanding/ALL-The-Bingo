@@ -1,0 +1,10 @@
+{
+    "type": "stats",
+    "display": {
+        "name": {"text": "击杀10只跳跃僵尸","italic": false},
+        "item": "minecells:leaping_zombie_spawn_egg"
+    },
+    "statType": "minecraft:killed",
+    "statName": "minecells:leaping_zombie",
+    "min": 10
+}

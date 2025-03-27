@@ -1,0 +1,27 @@
+{
+    "playerDistance": 48.0,
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "weight": 1,
+                    "entity": "minecells:protector",
+                    "attributes": {
+                        "generic.max_absorption": 8,
+                        "generic.armor_toughness": 4 
+                      }
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "weight": 1,
+                    "entity": "minecells:buzzcutter"
+                }
+            ]
+        }
+    ]
+}
