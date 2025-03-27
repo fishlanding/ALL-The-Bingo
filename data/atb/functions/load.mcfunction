@@ -2,6 +2,7 @@
 tellraw @a {"text": "数据包加载成功！"}
 
 # 游戏规则
+difficulty hard
 gamerule doImmediateRespawn true
 gamerule reducedDebugInfo true
 gamerule sendCommandFeedback false
