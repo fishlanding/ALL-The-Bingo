@@ -1,6 +1,12 @@
 # 加载成功
 tellraw @a {"text": "数据包加载成功！"}
 
+# 游戏规则
+difficulty hard
+gamerule keepInventory true
+gamerule doImmediateRespawn true
+gamerule reducedDebugInfo true
+
 # 积分板
 
 # 菜单
